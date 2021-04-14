@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+* {
+    font-family: "Poppins";
+    text-align: center;
+    background: 
+}
+
+
+.heading {
+    font-size: 25px;
+    margin: 0px;
+    width: 100%;
+    height: 200px;
+    /*credit to uigradients for da cool gradient*/
+    background: #834d9b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d04ed6, #834d9b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d04ed6, #834d9b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+}
+
+.note {
+    font-size: 16px;
+}
+
+
+
+.containing{
+    background: #834d9b;
+    text-align: center;
+
+}
+
+.bigdiv{
+    background:white;
+    color: black;
+    width: 400px;
+  display: inline-block;
+  margin:40px 10px 30px 10px;
+  text-align: left;
+  padding: 50px;
+}
+
+#canvapoint{
+    background: none;
+    color: #834d9b;
+}
